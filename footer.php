@@ -1,13 +1,10 @@
-		<div id="footer">
-			&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?>
-		</div>
 
-	</div>
+	<footer class="footer">
+		Copyright &copy; <?php echo date("Y"); echo " "; bloginfo('name'); ?> - All rights reserved.
+	</footer>
 
 	<?php wp_footer(); ?>
-	
-	<!-- Don't forget analytics -->
-	
+
 </body>
 
 </html>

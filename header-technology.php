@@ -31,11 +31,12 @@
 	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 	<link rel="stylesheet" href="css/styles.css">
+	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
-    <!-- Mobile viewport -->
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
     <meta name="viewport" content="user-scalable=no; width=device-width; initial-scale=1; maximum-scale=1">
 
      <!-- BEGIN FAVICONS & ICONS -->
@@ -65,15 +66,13 @@
 			</div><!--/.navbar-header -->
 			<div class="collapse navbar-collapse">
 			  <ul class="nav navbar-nav">
-			    <li class="active"><a href="http://www.redhook-etech.com">home</a></li>
+			    <li><a href="http://www.redhook-etech.com">home</a></li>
 			    <li><a href="http://www.redhook-etech.com/?page_id=4">about us</a></li>
 			    <li><a href="http://www.redhook-etech.com/?page_id=6">staffing</a></li>
-			    <li><a href="http://www.redhook-etech.com/?page_id=8">technology</a></li>
+			    <li class="active"><a href="http://www.redhook-etech.com/?page_id=8">technology</a></li>
 			    <li><a href="http://www.redhook-etech.com/?page_id=10">contact</a></li>
 			  </ul><!--/.nav navbar-nav -->
 			</div><!--/.nav-collapse -->
 		</div><!--/.container -->
 	</nav><!--/.navbar -->
-
-
 
